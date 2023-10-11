@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andika Febrianto</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+  section {
+    overflow-x: hidden;
+  }
+
+  .navbar-brand {
+    font-family: 'ADLaM Display', cursive;
+    font-weight: 900;
+  }
+
+  nav.navbar.navbar-sticky {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .navbar.navbar-sticky.navbar-colored {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .sec-1 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("/static/img/sec1.png");
+  }
+
+  .sec-1>.d-flex.align-items-center.justify-content-center {
+    min-height: 100vh;
+  }
+
+  .h1-sec1 {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'ADLaM Display', cursive;
+  }
+
+  .sec-2 {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+
+  .line {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #000;
+  }
+
+  .sec-3 {
+    /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)); */
+    height: 100vh;
+    padding-top: 120px;
+  }
+
+  .sec-4 {
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .fa-envelope-open-text {
+    font-size: 300px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .sec-1 {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .fa-envelope-open-text {
+      font-size: 200px;
+    }
+  }
+</style>
+
+<body id="home">
+
+  <nav class="navbar navbar-expand-lg navbar-sticky sticky-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">AFO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="sec-1 text-light">
+    <div class="d-flex align-items-center justify-content-center">
+      <div>
+        <span class="h1-sec1" id="element"></span>
+        <h6 class="text-center">
+          UI/UX Designer | Web Deplopment | FiveM Dev.
+        </h6>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec-2" id="about">
+    <div class="row d-flex justify-content-center text-center mb-5">
+      <h1>About me</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row d-flex justify-content-center" data-aos="fade-up-right">
+      <div class="card mb-3" style="max-width: 840px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/static/img/photo.png" class="img-fluid rounded-start" alt="andika">
+          </div>
+          <div class="col-md-8 px-3">
+            <div class="card-body text-justify">
+              <h5 class="card-title">So...</h5>
+              <p class="card-text">Hi Nama saya Andika Febrianto, saya adalah seorang front-end developer, UI/UX
+                Designer, FiveM Dev dan network enginering. Ini adalah website portofolio yang berisikan project-project
+                yang saya
+                buat, jika anda tertarik silahkan menghubungi saya dengan kontak yang ada. Apabila anda ingin mengetahui
+                ingin tahu tentang saya anda bisa melihat cv yang tertera.</p>
+              <a type="button" class="btn btn-outline-dark">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center text-center mb-5 mt-5">
+      <h1>Services</h1>
+      <div class="line"></div>
+    </div>
+
+    <div class="container text-center d-flex justify-content-center">
+      <div class="row">
+        <div class="col mb-4" data-aos="fade-up">
+          <div class="card" style="width: 18rem; height: 18rem;">
+            <i class="fab fa-uikit text-center mt-3 mb-3" style="font-size: 90px;"></i>
+            <div class="card-body text-start">
+              <h5 class="card-title">UI/UX Designer</h5>
+              <p class="card-text text-secondary">Dapatkan desain terbaru dan berbeda dari ribuan desain website yang
+                ada.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col mb-4" data-aos="fade-up">
+          <div class="card" style="width: 18rem; height: 18rem;">
+            <i class="fas fa-file-code text-center mt-3 mb-3" style="font-size: 90px;"></i>
+            <div class="card-body text-start">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text text-secondary">Anda tidak bisa membuat website? tenang saja saya bisa membantu anda
+                membuat website sesuai dengan keinginan anda.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col mb-4" data-aos="fade-up">
+          <div class="card" style="width: 18rem; height: 18rem;">
+            <i class="fas fa-server text-center mt-3 mb-3" style="font-size: 90px;"></i>
+            <div class="card-body text-start">
+              <h5 class="card-title">Network</h5>
+              <p class="card-text text-secondary">Jika anda mempunyai masalah pada perangkat jaringan anda bisa
+                menghungi saya.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="sec-3" id="portofolio">
+    <div class="row d-flex justify-content-center text-center mb-5">
+      <h1>Portofolio</h1>
+      <div class="line"></div>
+    </div>
+    <div class="container text-start">
+      <div class="row" data-aos="fade-up">
+        <div class="col mb-4">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img src="/static/img/5learn.png" class="card-img-top text-center" alt="fivemlearn">
+            <div class="card-body">
+              <h5 class="card-title">Five Learn</h5>
+              <p class="card-text">Website ini adalah website pembelajaran bahasa inggris.</p>
+              <a href="#" class="btn btn-dark">Kunjungi</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img src="/static/img/emmystor.png" class="card-img-top" alt="emmystore">
+            <div class="card-body">
+              <h5 class="card-title">Emmy Store</h5>
+              <p class="card-text">Website ini adalah website manajemen inventory barang toko emmy.</p>
+              <a href="#" class="btn btn-dark">Kunjungi</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img src="/static/img/son.png" class="card-img-top" alt="SON">
+            <div class="card-body">
+              <h5 class="card-title">State Of Nusantara</h5>
+              <p class="card-text">Website ini adalah website lading page State Of Nusantara.</p>
+              <a href="#" class="btn btn-dark">Kunjungi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sec-4 text-light" id="contact">
+    <div class="container text-center">
+      <p class="text-secondary">How can you communicate?</p>
+      <h1 class="section-title mb-5 font">Contact Me</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row justify-content-center">
+            <i class="fas fa-envelope-open-text mt-md-5 mt-sm-2"></i>
+          </div>
+        </div>
+        <div class="col-md-8 pt-md-4">
+          <form class="text-start">
+            <div class="mb-2">
+              <label class="form-label">Nama lengkap</label>
+              <input type="text" class="form-control" placeholder="Masukkan nama anda">
+            </div>
+            <div class="mb-2">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Masukkan email anda">
+            </div>
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Masukkan pesan Anda" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Pesan</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-secondary pt-1" style="height: 30px">
+    <h6 class="text-center">2023 © Andika Febrianto</h6>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar-sticky');
+      if (window.scrollY > 50) {
+        navbar.classList.add('navbar-colored');
+      } else {
+        navbar.classList.remove('navbar-colored');
+      }
+    });
+
+    var typed = new Typed('#element', {
+      strings: ['ANDIKA FEBRIANTO'],
+      typeSpeed: 200,
+      loop: true,
+      showCursor: true,
+      cursorChar: '.',
+    });
+  </script>
+</body>
+
+</html>
